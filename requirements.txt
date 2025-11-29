@@ -1,9 +1,10 @@
 streamlit==1.12.2
-tensorflow
-altair==4.2.2
-openpyxl
-scikit-learn
-joblib
 pandas
-numpy<2.0.0
-protobuf<=3.20.0
+numpy
+scikit-learn
+tensorflow
+joblib
+altair
+openpyxl
+protobuf
+packaging
