@@ -1,5 +1,5 @@
 streamlit==1.12.2
-tensorflow==2.10.0
+tensorflow
 altair==4.2.2
 openpyxl
 scikit-learn
