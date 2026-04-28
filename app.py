@@ -207,7 +207,7 @@ with tab_dash:
                 if len(df) < 10:
                     st.error("Input data has less than 10 rows. The model requires a minimum of 10 days of historical data.")
                 else:
-                    with st.spinner('Calculating tomorrow's price prediction...'):
+                    with st.spinner("Calculating tomorrow's price prediction..."):
                         
                         last_10_days = df.tail(10)[['ETHUSD', 'S&P500']].values
                         
