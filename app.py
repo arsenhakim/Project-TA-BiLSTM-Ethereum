@@ -95,7 +95,7 @@ with st.sidebar:
     st.caption("Developed by: **Arsen Awali R.H (2043221129)**")
 
 # --- 5. MAIN CONTENT (TABS) ---
-tab_home, tab_dash = st.tabs(["🏠 Home & Model Info", "📈 Analysis Dashboard"])
+tab_home, tab_dash = st.tabs(["🏠 Home & Model Info", "📈 Analyze Dashboard"])
 
 # === TAB 1: BERANDA & INFO MODEL ===
 with tab_home:
@@ -137,7 +137,7 @@ with tab_home:
         1. **Prepare Data:** Excel/CSV file with 3 format columns A,B,C (Date, ETH, S&P500).
         2. **Upload:** Use the panel on the left.
         3. **Predict:** Click the 'Process & Predict' button.
-        4. **Analyze:** Results will appear in the 'Analysis Dashboard' tab.
+        4. **Analyze:** Results will appear in the 'Analyze Dashboard' tab.
         """)
 
     if seed_df is not None:
